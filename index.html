@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Airene Hijapon - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: rgba(255,255,255,0.95);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        /* UPDATED PROFILE IMAGE STYLE */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px;
+            border: 4px solid #667eea;
+        }
+
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        section {
+            background: rgba(255,255,255,0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #764ba2;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill-tag {
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        .project-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 15px;
+            border-left: 4px solid #667eea;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <img src="c:\Users\Dell\Desktop\japonai\profile.jpg.jpg" alt="Airene Hijapon" class="profile-img">
+            <h1>AIRENE HIJAPON</h1>
+            <p class="subtitle">BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY - 3RD YEAR</p>
+        </header>
+
+        <!-- Career Objective -->
+        <section>
+            <h2>🎯 Career Objective</h2>
+            <p>
+                To become a skilled IT professional who can develop useful and innovative systems that help businesses and communities grow through technology.
+            </p>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <h2>🛠 Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-tag">HTML</div>
+                <div class="skill-tag">CSS</div>
+                <div class="skill-tag">Problem Solving</div>
+                <div class="skill-tag">Teamwork</div>
+                <div class="skill-tag">Communication</div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <h2>📂 Projects</h2>
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>This project showcases my skills, career objective, and personal information using HTML and CSS.</p>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section>
+            <h2>📞 Contact Information</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>📧</span>
+                    <span>airenehijapon@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <span>📱</span>
+                    <span>09481765060</span>
+                </div>
+                <div class="contact-item">
+                    <span>💼</span>
+                    <span>AIRENE HIJAPON</span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Airene Hijapon. All rights reserved.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
